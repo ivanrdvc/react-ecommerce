@@ -1,0 +1,20 @@
+.OrderSummaryTotal-group {
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.OrderSummaryTotal-line {
+  padding: 1.3rem 0;
+  border-bottom: 1px solid #d3d1d0;  
+  display: flex;
+  justify-content: space-between;
+}
+
+.OrderSummaryTotal-line:first-child {
+  border-top: 1px solid #d3d1d0;
+}
+
+.OrderSummaryTotal-line:last-child {
+  border-bottom: 0;
+}

@@ -1,0 +1,20 @@
+.PaymentOption {
+  margin-bottom: 2rem;
+}
+
+.PaymentOption-title {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.PaymentOption-inner {
+  display: flex;
+  padding: 0.5rem;
+  border: 1px solid black;
+  max-width: 20rem;
+}
+
+.PaymentOption-item {
+  width: 50%;
+  text-align: center;
+}

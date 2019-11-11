@@ -1,0 +1,24 @@
+.BreadcrumbsItem {
+  padding: 1rem 0;
+  font-size: 18px;
+  color: #a7a7a7;
+  flex-grow: 1;
+  text-align: center;
+  border-bottom: 1px solid #e2e3e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BreadcrumbsItem:hover {
+  cursor: pointer;
+}
+
+.BreadcrumbsItem span {
+  margin-right: 10px;
+}
+
+.BreadcrumbsItem-active {
+  border-color: #510fa8;
+  color: #383c41;
+}

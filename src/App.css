@@ -1,0 +1,81 @@
+﻿.App {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.form-item {
+  margin-bottom: 20px;
+}
+
+.form-error {
+  font-size: 15px;
+}
+
+.form-error--all {
+  margin-bottom: 15px;
+}
+
+.input {
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.input:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  outline: 0;
+}
+
+.input--text {
+  width: 100%;
+  border-radius: 8px;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+input {
+  display: inline-block;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.error {
+  color: #d73a49;
+}
+
+.checkbox-label:hover {
+  cursor: pointer;
+}
+
+.button {
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  padding: 1em 3.3em;
+  background: #2ecc71;
+  white-space: nowrap;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #dddddd !important;
+}

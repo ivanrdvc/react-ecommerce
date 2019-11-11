@@ -1,0 +1,18 @@
+.ShippingStep-form {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.ShippingStep-form label {
+  margin: 0 15px 0 0;
+  cursor: pointer;
+}
+
+.ShippingStep-form input {
+  cursor: pointer;
+}
+
+.ShippingStep-address {
+    margin-bottom: 2rem;
+}

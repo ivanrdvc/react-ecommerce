@@ -1,0 +1,23 @@
+.OrderSummaryItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.OrderSummaryItem:last-child {
+  margin-bottom: 0;
+}
+
+.OrderSummaryItem-img {
+  margin-right: 1rem;
+  max-width: 70px;
+}
+
+.OrderSummaryItem-name {
+  margin-right: .5rem;
+  font-weight: 600;
+}
+
+.OrderSummaryItem-price {
+  margin-left: auto;
+}

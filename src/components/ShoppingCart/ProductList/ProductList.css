@@ -1,0 +1,24 @@
+.ProductList-header {
+  border-bottom: 1px solid #d3d1d0;
+  padding-bottom: 0.5rem;
+  display: flex;
+}
+
+.ProductList-title {
+  color: #828282;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.ProductList-title:nth-child(1) {
+  flex: 0 0 58.33333%;
+}
+
+.ProductList-title:nth-child(2) {
+  flex: 0 0 25%;
+}
+
+.ProductList-title:nth-child(3) {
+  flex: 0 0 16.66667%;
+  text-align: right;
+}

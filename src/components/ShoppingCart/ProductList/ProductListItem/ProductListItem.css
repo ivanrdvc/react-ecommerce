@@ -1,0 +1,44 @@
+.ProductListItem {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d3d1d0;
+  padding: 1rem 0;
+}
+
+.ProductListItem:last-child {
+  border-color: #828282;
+}
+
+.ProductListItem-details {
+  flex: 0 0 58.33333%;
+  display: flex;
+  align-items: center;
+}
+
+.ProductListItem-img {
+  margin-right: 2rem;
+  max-width: 65px;
+}
+
+.ProductListItem-remove {
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.ProductListItem-remove svg {
+  width: 20px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ProductListItem-total {
+  flex: 0 0 41.66667%;
+  display: flex;
+}
+
+.ProductListItem-price {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}

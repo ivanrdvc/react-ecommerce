@@ -1,0 +1,31 @@
+.ShoppingCartDetails-line {
+  display: flex;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #d3d1d0;
+}
+
+.ShoppingCartDetails-line:nth-child(2) {
+  border-bottom: none;
+}
+
+.ShoppingCartDetails-title {
+  text-transform: uppercase;
+}
+
+.ShoppingCartDetails-subtotal {
+  margin-left: auto;
+}
+
+.ShoppingCartDetails-total {
+  margin-left: auto;
+}
+
+.ShoppingCartDetails-nav {
+  align-items: center;
+  padding: .5rem 0;
+  display: flex;
+}
+
+.ShoppingCartDetails-nav .button:first-of-type {
+  margin: 0 2rem 0 auto;
+}

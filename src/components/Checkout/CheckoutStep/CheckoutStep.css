@@ -1,0 +1,19 @@
+.CheckoutStep {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.CheckoutStep-title {
+  margin-bottom: 2rem;
+}
+
+.CheckoutStep-form {
+  max-width: 42rem;
+}
+
+@media (min-width: 65.625em) {
+  .CheckoutStep {
+    width: 65%;
+    margin-bottom: 0;
+  }
+}

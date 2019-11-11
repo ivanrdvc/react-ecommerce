@@ -1,0 +1,6 @@
+@media (min-width: 65.625em) {
+  .Checkout {
+    display: flex;
+    align-items: flex-start;
+  }
+}
